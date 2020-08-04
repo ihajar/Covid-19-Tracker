@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+ 
+  /* color: aliceblue; */
+}
+body{
+  background-color: #252424;
+  max-height: 100vh;
+}
+h1{
+  color: white;
+}
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__menu{
+  background-color: white !important;
+  color: aquamarine;
+  border: 2px solid salmon;
+}
+.app__dropdown{
+  background-color: white !important;
+  color: aquamarine;
+  border: 2px solid salmon;
+  border-radius: 15px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
